@@ -1,12 +1,13 @@
 ---
 title: MidoNet integration
 authors: adjohn, fernando, fiveohmike, red trela, techcet, yantarou, zbigniewficner,jon
-wiki_title: MidoNet integration
-wiki_revision_count: 173
+wiki_title: MidoNet integration icehouse
+wiki_revision_count: 1
 wiki_last_updated: 2016-03-17
+wiki_base: MidoNet integration (revision_count 172, 2015-08-07)
 ---
 
-# MidoNet integration
+# MidoNet integration with OpenStack Icehouse release
 
 ## Prerequisites
 
@@ -21,10 +22,9 @@ NOTE: Make sure Selinux is disabled (or set to permissive) and both FirewallD an
 Enable the RDO repositories using the following command (as root):
       
 
-      yum install -y https://www.rdoproject.org/repos/rdo-release.rpm
+      yum install -y http://rdo.fedorapeople.org/openstack-icehouse/rdo-release-icehouse.rpm
 
-#####RedHat Configuration:
-To enable the EPEL repository on RHEL7 use this command:
+To enable the EPEL repository use this command:
       
 
       su -c 'rpm -Uvh http://download.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm'
